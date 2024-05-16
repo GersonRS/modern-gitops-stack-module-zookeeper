@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/GersonRS/modern-gitops-stack-module-zookeeper/compare/v1.0.0...v1.1.0) (2024-05-16)
+
+
+### 🚀 New Features
+
+* adjust module ([1d7c7da](https://github.com/GersonRS/modern-gitops-stack-module-zookeeper/commit/1d7c7da820d0b07f82ccda4b6cb99b0261c7a4eb))
+* adjust module ([3b7ccb7](https://github.com/GersonRS/modern-gitops-stack-module-zookeeper/commit/3b7ccb7dbb11a9a2ac70c8f5cf6f582eaf70db5b))
+
 ## [2.4.0](https://github.com/GersonRS/modern-gitops-stack-module-minio/compare/v2.3.0...v2.4.0) (2024-05-01)
 
 

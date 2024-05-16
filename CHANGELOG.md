@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/GersonRS/modern-gitops-stack-module-zookeeper/compare/v1.1.0...v1.2.0) (2024-05-16)
+
+
+### 🚀 New Features
+
+* remove invalid outputs ([d60586d](https://github.com/GersonRS/modern-gitops-stack-module-zookeeper/commit/d60586dc6c8c6bd980c2f4a7820772dc88d551b3))
+
+
+### 📚 Documentation
+
+* **terraform-docs:** generate docs and write to README.adoc ([aee3a4e](https://github.com/GersonRS/modern-gitops-stack-module-zookeeper/commit/aee3a4eb9a3ae92edfe25d410d3a16ac919bb12b))
+
 ## [1.1.0](https://github.com/GersonRS/modern-gitops-stack-module-zookeeper/compare/v1.0.0...v1.1.0) (2024-05-16)
 
 

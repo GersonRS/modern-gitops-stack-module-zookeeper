@@ -40,7 +40,7 @@ variable "destination_cluster" {
 variable "target_revision" {
   description = "Override of target revision of the application chart."
   type        = string
-  default     = "v2.4.0" # x-release-please-version
+  default     = "v1.0.0" # x-release-please-version
 }
 
 variable "cluster_issuer" {
@@ -84,48 +84,3 @@ variable "dependency_ids" {
 #######################
 ## Module variables
 #######################
-
-# This variable is used to create policies, users and buckets instead of using hard coded values.
-variable "config_minio" {
-  description = "Variable to create buckets and required users and policies."
-
-  type = object({
-    policies = optional(list(object({
-      name = string
-      statements = list(object({
-        resources = list(string)
-        actions   = list(string)
-      }))
-    })), [])
-    users = optional(list(object({
-      accessKey = string
-      secretKey = string
-      policy    = string
-    })), [])
-    buckets = optional(list(object({
-      name          = string
-      policy        = optional(string, "none")
-      purge         = optional(bool, false)
-      versioning    = optional(bool, false)
-      objectlocking = optional(bool, false)
-    })), [])
-  })
-
-  default = {}
-}
-
-variable "oidc" {
-  description = "OIDC configuration to access the MinIO web interface."
-
-  type = object({
-    issuer_url              = string
-    oauth_url               = string
-    token_url               = string
-    api_url                 = string
-    client_id               = string
-    client_secret           = string
-    oauth2_proxy_extra_args = optional(list(string), [])
-  })
-
-  default = null
-}

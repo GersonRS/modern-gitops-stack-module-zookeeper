@@ -2,6 +2,6 @@ apiVersion: v2
 dependencies:
   - name: zookeeper
     repository: oci://registry-1.docker.io/bitnamicharts
-    version: "*.*.*"
+    version: "12.12.1"
 name: zookeeper
 version: "0"

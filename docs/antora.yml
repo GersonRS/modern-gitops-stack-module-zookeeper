@@ -1,6 +1,6 @@
 ---
-name: "minio"
-title: "MinIO Module"
+name: "zookeeper"
+title: "Zookeeper Module"
 version: true
 start_page: README.adoc
 nav:

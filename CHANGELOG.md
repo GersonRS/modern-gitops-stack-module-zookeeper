@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/GersonRS/modern-gitops-stack-module-zookeeper/compare/v1.3.0...v2.0.0) (2025-01-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* **chart:** major update of dependencies on zookeeper chart
+
+### 🚀 New Features
+
+* **chart:** major update of dependencies on zookeeper chart ([8dafdf3](https://github.com/GersonRS/modern-gitops-stack-module-zookeeper/commit/8dafdf369b6572a116131dac3e72101254ca5dbc))
+
+
+### 📚 Documentation
+
+* **terraform-docs:** generate docs and write to README.adoc ([f563c16](https://github.com/GersonRS/modern-gitops-stack-module-zookeeper/commit/f563c165d4fbc69a9a16a8dfc714581dc38da05d))
+
 ## [1.3.0](https://github.com/GersonRS/modern-gitops-stack-module-zookeeper/compare/v1.2.0...v1.3.0) (2024-05-16)
 
 
